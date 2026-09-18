@@ -1,9 +1,7 @@
-package alquilervehiculos;
-
 public abstract class Vehiculo {
-    private String marca;
-    private String modelo;
-    private double tarifaBase;
+    private final String marca;
+    private final String modelo;
+    private final double tarifaBase;
 
     public Vehiculo(String marca, String modelo, double tarifaBase) {
         this.marca = marca;
